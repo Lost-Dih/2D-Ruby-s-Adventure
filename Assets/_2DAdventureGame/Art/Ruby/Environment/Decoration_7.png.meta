@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 93019dd70154ed74393e312bc2aee511
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271239
+  packageName: 'Unity Learn | 2D Adventure Game: Robot Repair'
+  packageVersion: 2.0.0
+  assetPath: Assets/_2DAdventureGame/Art/Ruby/Environment/Decoration_7.png
+  uploadId: 832758
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,9 +53,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,9 +113,176 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Decoration_7_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 342
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ded0a8f5f5ca54ea0b49174d101a96
+      internalID: 950889159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration_7_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84386395988d43c4788c592e73203a55
+      internalID: 94107285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration_7_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 172
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ff865a248c5994889b61eaf3db29e1
+      internalID: 1669510919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration_7_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 172
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457448df644ee8d4c9dfbf8e656f8905
+      internalID: -1825024360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration_7_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5370b5e68afb96c48b64a3d4c605a598
+      internalID: 185709877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration_7_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a224cc5707af41548a93bcca433315d3
+      internalID: -1137759826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration_7_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3683296cdeffd4fa2ad5b6e7c62db8
+      internalID: 1030476668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -121,17 +295,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":105.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Decoration_7_0: 950889159
+      Decoration_7_1: 94107285
+      Decoration_7_2: 1669510919
+      Decoration_7_3: -1825024360
+      Decoration_7_4: 185709877
+      Decoration_7_5: -1137759826
+      Decoration_7_6: 1030476668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 271239
-  packageName: 'Unity Learn | 2D Adventure Game: Robot Repair'
-  packageVersion: 2.0.0
-  assetPath: Assets/_2DAdventureGame/Art/Ruby/Environment/Decoration_7.png
-  uploadId: 832758
