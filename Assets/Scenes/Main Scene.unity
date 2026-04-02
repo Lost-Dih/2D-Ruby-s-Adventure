@@ -256,24 +256,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!1 &25960596 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4964366750152869462, guid: 6a5b03c6f31069f4f998a8319859ac0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 6283950301510251929}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &25960600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25960596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85d212f690943f04393d5cd0a7fbc747, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DamageZone
 --- !u!4 &39499317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3337080503129896005, guid: d1b26b4df64114349a79c3b4aa3e1533,
@@ -360,6 +342,62 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4511431978378777393}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &393390719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 393390721}
+  - component: {fileID: 393390720}
+  m_Layer: 5
+  m_Name: UIDocument
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &393390720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393390719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: bfab32c9f7f36734d9c481400140aa50, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 3a2e394bfd1e7d2449d376ad9ca23e3c,
+    type: 3}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
+--- !u!4 &393390721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393390719}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &430681417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4755,16 +4793,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1833823204243906135, guid: 6a5b03c6f31069f4f998a8319859ac0d,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1833823204243906135, guid: 6a5b03c6f31069f4f998a8319859ac0d,
-        type: 3}
-      propertyPath: m_AutoTiling
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4236176957012508738, guid: 6a5b03c6f31069f4f998a8319859ac0d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4823,11 +4851,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4964366750152869462, guid: 6a5b03c6f31069f4f998a8319859ac0d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 25960600}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a5b03c6f31069f4f998a8319859ac0d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -4839,3 +4863,4 @@ SceneRoots:
   - {fileID: 473899667}
   - {fileID: 6283950301510251929}
   - {fileID: 1523918553}
+  - {fileID: 393390721}
