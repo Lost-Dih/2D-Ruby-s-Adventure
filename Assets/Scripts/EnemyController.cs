@@ -16,12 +16,17 @@ public class EnemyController : MonoBehaviour
    int direction = 1;
    bool broken = true;
 
+   public AudioSource audioSource;
+
+   public ParticleSystem smokeEffect;
+
 
    // Start is called before the first frame update
    void Start()
    {
        rigidbody2d = GetComponent<Rigidbody2D>();
        animator = GetComponent<Animator>();
+       audioSource = GetComponent<AudioSource>();
        timer = changeTime;
       
    }
@@ -76,12 +81,13 @@ public class EnemyController : MonoBehaviour
 
        if (player != null)
        {
-           player.ChangeHealth(-1);
+            player.ChangeHealth(-1);
+            audioSource.Stop();
        }
    }
 
 
- void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
     }
@@ -93,6 +99,7 @@ public class EnemyController : MonoBehaviour
        broken = false;
        GetComponent<Rigidbody2D>().simulated = false;
        animator.SetTrigger("Fixed");
+       smokeEffect.Stop();
    }
 
 

@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     // // Variables related to Projectile
     public GameObject projectilePrefab;
 
+    AudioSource audioSource;
+
 
     // Start is called before the first frame update
     void Start()
@@ -131,5 +133,10 @@ public class PlayerController : MonoBehaviour
         }
     }
     
+    
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }
     
 }

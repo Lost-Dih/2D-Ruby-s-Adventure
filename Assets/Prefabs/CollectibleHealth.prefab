@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3369817673840889165}
   - component: {fileID: 4706160985688441970}
   - component: {fileID: 6794603270455479757}
-  - component: {fileID: 7630442935853760182}
+  - component: {fileID: 4077925783275908489}
   m_Layer: 0
   m_Name: CollectibleHealth
   m_TagString: Untagged
@@ -139,7 +139,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.6493073, y: 3.3777943}
   m_EdgeRadius: 0
---- !u!114 &7630442935853760182
+--- !u!114 &4077925783275908489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,3 +151,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a1ad1d0e6b9904ea4a107c76d1c79a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthCollectible
+  collectedClip: {fileID: 8300000, guid: 173a14cf06354c643b46b235f2a4f974, type: 3}
