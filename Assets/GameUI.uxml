@@ -3,6 +3,6 @@
         <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; position: absolute; height: 104px; width: 410px; top: 103px; left: 239px; -unity-background-scale-mode: stretch-to-fill; background-size: 100% 100%;">
             <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ducko/UI/UIHealthBar.png?fileID=21300000&amp;guid=39fe000f2b6d9d04b93d6a76310e29aa&amp;type=3#UIHealthBar&quot;);"/>
         </ui:VisualElement>
-        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=374193bc7008fa34ab9b2bbca376937b&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; top: 10%; width: 80%; height: 80%; right: 0%; left: -10%; bottom: 0%;"/>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=374193bc7008fa34ab9b2bbca376937b&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; top: 10%; width: 80%; height: 80%; right: 0%; left: -15%; bottom: 0%;"/>
     </ui:VisualElement>
 </ui:UXML>

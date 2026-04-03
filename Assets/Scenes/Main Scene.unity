@@ -352,6 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 393390721}
   - component: {fileID: 393390720}
+  - component: {fileID: 393390722}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -398,6 +399,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &393390722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393390719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b3ed1f1b072f80468c280882435aed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIHandler
 --- !u!1001 &430681417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4461,12 +4474,12 @@ PrefabInstance:
     - target: {fileID: 3369817673840889165, guid: 73dc0cade619ccb4889902e8a7e12aa5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.441179
+      value: -9.39
       objectReference: {fileID: 0}
     - target: {fileID: 3369817673840889165, guid: 73dc0cade619ccb4889902e8a7e12aa5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6271799
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 3369817673840889165, guid: 73dc0cade619ccb4889902e8a7e12aa5,
         type: 3}
