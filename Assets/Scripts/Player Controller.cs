@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     // // Variables related to Projectile
     public GameObject projectilePrefab;
 
-    AudioSource audioSource;
+    public AudioSource audioSource;
 
 
     // Start is called before the first frame update
