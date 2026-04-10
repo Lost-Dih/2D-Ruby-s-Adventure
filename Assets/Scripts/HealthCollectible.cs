@@ -12,9 +12,9 @@ public class HealthCollectible : MonoBehaviour
     {
         PlayerController controller = other.GetComponent<PlayerController>();
 
-        Debug.Log("Health collectible collided with " + other.name);
-        Debug.Log("Player health before collecting: " + controller.health);
-        Debug.Log("Player max health: " + controller.maxHealth);
+        //Debug.Log("Health collectible collided with " + other.name);
+        //Debug.Log("Player health before collecting: " + controller.health);
+        //Debug.Log("Player max health: " + controller.maxHealth);
         if (controller != null && controller.health< controller.maxHealth)
         {
             controller.ChangeHealth(1);

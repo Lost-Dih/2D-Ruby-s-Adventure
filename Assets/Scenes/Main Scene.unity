@@ -9815,6 +9815,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1546281922}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1968830921 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1417919784294429464, guid: 6a670a7d47ae3ef42b9a8ff90cde6175,
+    type: 3}
+  m_PrefabInstance: {fileID: 1840294446912442746}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1986267796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9894,6 +9900,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3369817673840889165, guid: 73dc0cade619ccb4889902e8a7e12aa5,
     type: 3}
   m_PrefabInstance: {fileID: 1150757175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2043251959 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8014340324825231200, guid: ab8bbe7e9552a6e448da7a9469bfd34b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5142156437890960123}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2090358384
 PrefabInstance:
@@ -10409,11 +10421,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7364790426772920578, guid: 6a670a7d47ae3ef42b9a8ff90cde6175,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.43
+      objectReference: {fileID: 0}
     - target: {fileID: 8338693875997847825, guid: 6a670a7d47ae3ef42b9a8ff90cde6175,
         type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 8387311244127295460, guid: 6a670a7d47ae3ef42b9a8ff90cde6175,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1968830921}
     - target: {fileID: 8387311244127295460, guid: 6a670a7d47ae3ef42b9a8ff90cde6175,
         type: 3}
       propertyPath: smokeEffect
@@ -10772,6 +10794,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 843731784722050390, guid: ab8bbe7e9552a6e448da7a9469bfd34b,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2043251959}
     - target: {fileID: 2695630350049256056, guid: ab8bbe7e9552a6e448da7a9469bfd34b,
         type: 3}
       propertyPath: m_Name
